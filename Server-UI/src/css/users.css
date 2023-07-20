@@ -1,0 +1,123 @@
+.themeOverideUser th .MuiButton-root{
+  color: #fff;
+}
+
+@media (max-width: 899.95px){
+.tss-iwylj0-MUIDataTableBodyCell-responsiveStackedSmallParent {
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+}
+/* .addUserBtn {
+    display: flex !important;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    justify-content: flex-end;
+  } */
+
+.userTitleDiv {
+  padding-top:15px;
+  padding-bottom: 15px;
+  }
+
+.addUserBtn {
+    position: absolute;
+  margin-left: 83%;
+  }
+
+  @media (max-width: 850px){
+    .addUserBtn {
+      margin-left: 76%;
+    }
+  }
+
+  @media (max-width: 450px){
+    .addUserBtn {
+      margin-left: 67%;
+    }
+  }
+
+  @media (max-width: 250px){
+    .addUserBtn {
+      margin-left: 57%;
+    }
+  }
+
+  .addUserBtnStyle button .MuiButton-root {
+    min-width: 34px !important;
+  }
+
+.addUserBtnStyle {
+    /* border: 1px solid #333538 !important; */
+    /* display: flex !important; */
+    margin-bottom: 10px;
+    margin-top: 8px;
+    /* justify-content: flex-end; */
+    /* background-color: #fff !important; */
+    color: #333538 !important;
+    /* margin-bottom: 10px; */
+  }
+  .addUserBtnStyle:hover {
+    background-color: rgb(237, 237, 237) !important;
+    color: #333538 !important;
+  }
+  
+
+  .adduserheaderline {
+    border: 1px solid rgb(198, 198, 198);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 12px 14px;
+    /* border-top: 8px solid #474747; */
+  }
+
+  .usersubcanbtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .edituserheaderline {
+    border: 1px solid rgb(198, 198, 198);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 2px 14px;
+    /* margin-bottom: 10px; */
+    /* border-top-color: #3f51b5; */
+    /* border-top: 8px solid #474747; */
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+  }
+
+  /* .themeOverideUser .tss-1fz5efq-MUIDataTableToolbar-left {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    position: absolute;
+    margin-left: 70%;
+} */
+  .themeOverideUser .tss-1fz5efq-MUIDataTableToolbar-left {
+    /* -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    position: absolute; */
+    /* margin-left: 0% !important; */
+}
+
+@media (max-width: 899.95px){
+.themeOverideUser .tss-qbo1l6-MUIDataTableToolbar-actions {
+    text-align: right;
+}
+}
+
+@media (max-width: 599.95px){
+.themeOverideUser  .tss-hj53wm-MUIDataTableToolbar-titleText {
+    text-align: left;
+}
+}
+
+.addUserStyle, button .MuiButton-root {
+  min-width: 0px !important;
+  color: rgba(0, 0, 0, 0.54) !important;
+
+}

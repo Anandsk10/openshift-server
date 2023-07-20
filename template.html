@@ -1,0 +1,42 @@
+<!-- template.html -->
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <head>
+        <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        </style>
+    </head>
+   </head>
+	
+   <body>
+               <table cellpadding = "5" cellspacing = "5">
+                  <tr>
+                     <th>Asset Name</th>
+                     {{range .Asset_Name_List}}
+                     <td>
+                        {{.}}
+                        {{end}}
+                     </td>
+                    
+                  </tr>
+                  <tr>
+                    <th>Duration</th>
+                    {{range .Duration_List}}
+                    <td>
+                       {{.}} days
+                       {{end}}
+                    </td>
+                   
+                 </tr>
+               </table>
+   </body>
+	
+</html>
